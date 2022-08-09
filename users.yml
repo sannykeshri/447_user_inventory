@@ -5,3 +5,5 @@ users:
     group: vivek
   - name: shivam
     group: shivam
+  - name: sanny
+    group: sanny
