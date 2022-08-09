@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: true
+  vars_files:
+      - users.yml
+  tasks: 
+      - name: create users from file
+        user:
+            name: "{{ item.name }}" 
+            group: "{{ item.group }}"
+        with_items: "{{ users }}"
+               
+        
