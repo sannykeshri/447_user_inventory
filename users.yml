@@ -9,3 +9,5 @@ users:
     group: sanny
   - name: ravi
     group: ravi
+  - name: vishal
+    group: vishal
